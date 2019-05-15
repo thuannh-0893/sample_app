@@ -12,3 +12,6 @@ users:
     size: 80
 remember: "1"
 not_remember: "0"
+per_page: "25"
+gravatar_for:
+  size: 50

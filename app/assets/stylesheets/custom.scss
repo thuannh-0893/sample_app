@@ -15,6 +15,13 @@ $gray-medium-dark: #555;
   box-sizing: border-box;
 }
 
+/* languages */
+.languages {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
 /* universal */
 
 body {
@@ -193,4 +200,16 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
