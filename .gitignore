@@ -19,6 +19,7 @@
 /config/settings/development.yml
 /config/settings/production.yml
 /config/settings/test.yml
+/config/settings.local.yml
 
 # Used by dotenv library to load environment variables.
 # .env
