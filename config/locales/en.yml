@@ -67,6 +67,16 @@ en:
       title: "All users"
     user:
       comfirm: "You sure?"
+      delete: "delete"
+    follow:
+      follow_submit: "Follow"
+    unfollow:
+      unfollow_submit: "Unfollow"
+    show_follow:
+      view_my_profile: "view my profile"
+      microposts_count: "Microposts: %{m_count}"
+    show:
+      microposts_count: "Microposts (%{m_count})"
   shared:
     error_messages:
       form_error: 
@@ -77,6 +87,10 @@ en:
       post: "Post"
     user_info:
       view_profile: "view my profile"
+      microposts_count: "%{m_count} Microposts"
+    stats:
+      following: "following"
+      followers: "followers"
   activerecord:
     attributes:
       user:
@@ -107,6 +121,8 @@ en:
       danger_login: "Please log in."
       delete: "User deleted"
       check_mail: "Please check your email to activate your account."
+      following: "Following"
+      followers: "Followers"
     account_activations:
       success: "Account activated!"
       danger: "Invalid activation link"

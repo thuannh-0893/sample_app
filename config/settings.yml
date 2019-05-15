@@ -18,3 +18,4 @@ micropost:
     max_length: 140
 gravatar_for:
   size: 50
+  size_user: 30
