@@ -30,3 +30,5 @@ vi:
       content_html: "Đây là trang chủ của hướng dẫn về
         <a href='https://www.railstutorial.org/'>Ruby on Rails</a>
         ứng dụng mẫu."
+  helpers:
+    base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
