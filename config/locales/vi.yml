@@ -1,2 +1,32 @@
 vi:
-  hello: "Xin chào thế giới"
+  layouts:
+    application:
+      title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
+      language_en: "English"
+      language_vi: "Tiếng Việt"
+  static_pages:
+    about:
+      title: "Giới thiệu"
+      content_html: "Hướng dẫn về <a href='https://www.railstutorial.org/'><em>Ruby on Rails
+        Tutorial</em></a> là một bộ
+        <a href='https://www.railstutorial.org/book'>sách</a> và
+        <a href='http://screencasts.railstutorial.org/'>screencast series</a>
+        để dạy phát triển web với
+        <a href='http://rubyonrails.org/'>Ruby on Rails</a>.
+        Đây là ứng dụng mẫu cho hướng dẫn."
+    contact:
+      title: "Liên hệ"
+      content_html: "Liên hệ với hướng dẫn Ruby on Rails về ví dụ mẫu tại
+        <a href='https://www.railstutorial.org/contact'>trang liên hệ</a>."
+    help:
+      title: "Trợ giúp"
+      content_html: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+        <a href='https://www.railstutorial.org/help'>Rails Tutorial help section</a>.
+        Để nhận trợ giúp về ứng dụng mẫu này, hãy xem sách
+        <a href='https://www.railstutorial.org/book'><em>Ruby on Rails Tutorial</em></a>."
+    home:
+      hello: "Xin chào"
+      title: "Trang chủ"
+      content_html: "Đây là trang chủ của hướng dẫn về
+        <a href='https://www.railstutorial.org/'>Ruby on Rails</a>
+        ứng dụng mẫu."
