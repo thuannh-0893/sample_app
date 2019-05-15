@@ -77,6 +77,7 @@ vi:
       password: "Mật khẩu"
       sign_up: "Đăng kí ngay!"
       new_user: "Người dùng mới?"
+      remember: "Nhớ mật khẩu trên máy tính này"
   controllers:
     sessions_controller:
       error: "Email / mật khẩu không hợp lệ"

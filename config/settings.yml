@@ -10,3 +10,5 @@ users:
     min_length: 6
   gravatar_for:
     size: 80
+remember: "1"
+not_remember: "0"
