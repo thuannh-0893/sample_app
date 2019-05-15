@@ -48,5 +48,26 @@ en:
     new:
       title: "Sign up"
       content_html: "This will be a signup page for new users."
+      create: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+  shared:
+    error_messages:
+      form_error: 
+        one: "The form contains 1 error"
+        other: "The form contains %{count} error"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
   helpers:
     base_title: "Ruby on Rails Tutorial Sample App"
+  controllers:
+    users_controller:
+      welcome: "Welcome to the Sample App!"
+      user_not_exist: "User isn't exist!"

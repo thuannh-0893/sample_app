@@ -8,3 +8,5 @@ users:
     max_length: 255
   password:
     min_length: 6
+  gravatar_for:
+    size: 80
