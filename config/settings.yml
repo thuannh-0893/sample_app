@@ -13,5 +13,8 @@ users:
 remember: "1"
 not_remember: "0"
 per_page: "25"
+micropost:
+  content:
+    max_length: 140
 gravatar_for:
   size: 50

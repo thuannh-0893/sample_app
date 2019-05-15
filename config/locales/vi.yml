@@ -47,6 +47,7 @@ vi:
       content_html: "Đây là trang chủ của hướng dẫn về
         <a href='https://www.railstutorial.org/'>Ruby on Rails</a>
         ứng dụng mẫu."
+      micropost_feed: "Bài Micropost"
   users:
     form:
       name: "Tên"
@@ -70,6 +71,11 @@ vi:
       form_error: 
         one: "Biểu mẫu chứa 1 lỗi"
         other: "Biểu mẫu chứa %{count} lỗi"
+    micropost_form:
+      compose_new: "Soạn micropost mới ..."
+      post: "Đăng bài"
+    user_info:
+      view_profile: "xem hồ sơ của tôi"
   activerecord:
     attributes:
       user:
@@ -105,10 +111,15 @@ vi:
       danger: "Liên kết kích hoạt không hợp lệ"
     password_resets:
       sent_email: "Email được gửi với hướng dẫn đặt lại mật khẩu"
-      email_not found: "Không tìm thấy địa chỉ email"
+      email_not_found: "Không tìm thấy địa chỉ email"
       pass_reseted: "Mật khẩu đã được đặt lại."
       reset_expired: "Đặt lại mật khẩu đã hết hạn."
       not_empty: "không thể để trống"
+    application:
+      pls_login: "Xin vui lòng đăng nhập."
+    microposts:
+      created: "Micropost đã tạo!"
+      deleted: "Đã xóa Micropost"
   password_resets:
     new:
       title: "Quên mật khẩu"
@@ -130,3 +141,12 @@ vi:
       reset_password: "Đặt lại mật khẩu"
       time_expire: "Liên kết này sẽ hết hạn sau hai giờ nữa."
       content: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+  mailers:
+    user_mailer:
+      a_a_subject: "Kích hoạt tài khoản"
+      p_r_subject: "Đặt lại mật khẩu"
+  microposts:
+    micropost:
+      posted: "Đã đăng %{time} trước."
+      you_sure: "Bạn chắc chắn?"
+      delete: "xóa bỏ"
