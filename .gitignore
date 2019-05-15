@@ -11,6 +11,8 @@
 /tmp/
 /config/database.yml
 /log/development.log
+/log/
+/db/*.sqlite3
 
 # Used by dotenv library to load environment variables.
 # .env
