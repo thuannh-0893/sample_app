@@ -1,0 +1,10 @@
+enabled_locales: ["en", "vi"]
+client:
+  host: "localhost:3000"
+users:
+  name:
+    max_length: 50
+  email:
+    max_length: 255
+  password:
+    min_length: 6
