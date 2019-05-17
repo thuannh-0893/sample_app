@@ -1,9 +1,8 @@
-<%= link_to "English", locale:"en" %>
-<%= link_to "Vietnamese", locale:"vi" %>
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SampleApp</title>
+    <title><%= yield(:title) %> | <%= t ".title" %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,6 +11,8 @@
   </head>
 
   <body>
+    <%= link_to t(".language_en"), locale:"en" %>
+    <%= link_to t(".language_vi"), locale:"vi" %>
     <%= yield %>
   </body>
 </html>
