@@ -1,9 +1,20 @@
 vi:
   layouts:
     application:
-      title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
+    shim:
       language_en: "English"
       language_vi: "Tiếng Việt"
+    header:
+      title: "ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Giúp đỡ"
+      log_in: "Đăng nhập"
+    footer:
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      content_html: "<a href='https://www.railstutorial.org/'>Hướng dẫn về Ruby on Rails</a>
+        by <a href='http://www.michaelhartl.com/'>Michael Hartl"
   static_pages:
     about:
       title: "Giới thiệu"
@@ -27,8 +38,14 @@ vi:
     home:
       hello: "Xin chào"
       title: "Trang chủ"
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu"
+      sign_up: "Đăng kí ngay!"
       content_html: "Đây là trang chủ của hướng dẫn về
         <a href='https://www.railstutorial.org/'>Ruby on Rails</a>
         ứng dụng mẫu."
+  users:
+    new:
+      title: "Đăng ký"
+      content_html: "Đây sẽ là một trang đăng ký cho người dùng mới."
   helpers:
     base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
