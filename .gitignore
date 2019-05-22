@@ -11,8 +11,14 @@
 /tmp/
 /config/database.yml
 /log/development.log
+/log/test.log
 /log/
-/db/*.sqlite3
+/db/test.sqlite3
+/db/development.sqlite3 
+/test/fixtures/users.yml
+/config/settings/development.yml
+/config/settings/production.yml
+/config/settings/test.yml
 
 # Used by dotenv library to load environment variables.
 # .env
@@ -52,3 +58,7 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
