@@ -47,5 +47,26 @@ vi:
     new:
       title: "Đăng ký"
       content_html: "Đây sẽ là một trang đăng ký cho người dùng mới."
+      create: "Tạo tài khoản của tôi"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+  shared:
+    error_messages:
+      form_error: 
+        one: "Biểu mẫu chứa 1 lỗi"
+        other: "Biểu mẫu chứa %{count} lỗi"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
   helpers:
     base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  controllers:
+    users_controller:
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu!"
+      user_not_exist: "Người dùng không tồn tại!"
