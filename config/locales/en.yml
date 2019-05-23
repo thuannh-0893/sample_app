@@ -9,6 +9,11 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      log_out: "Log out"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
     footer:
       about: "About"
       contact: "Contact"
@@ -47,7 +52,6 @@ en:
   users:
     new:
       title: "Sign up"
-      content_html: "This will be a signup page for new users."
       create: "Create my account"
       name: "Name"
       email: "Email"
@@ -67,7 +71,16 @@ en:
         password_confirmation: "Xác nhận mật khẩu"
   helpers:
     base_title: "Ruby on Rails Tutorial Sample App"
+  sessions:
+    new:
+      title: "Log in"
+      email: "Email"
+      password: "Password"
+      sign_up: "Sign up now!"
+      new_user: "New user?"
   controllers:
+    sessions_controller:
+      error: "Invalid email/password combination"
     users_controller:
       welcome: "Welcome to the Sample App!"
       user_not_exist: "User isn't exist!"
