@@ -1,9 +1,6 @@
 en:
   layouts:
     application:
-    shim: 
-      language_en: "English"
-      language_vi: "Tiếng Việt"
     header:
       title: "sample app"
       home: "Home"
@@ -14,6 +11,8 @@ en:
       profile: "Profile"
       settings: "Settings"
       account: "Account"
+      language_en: "English"
+      language_vi: "Tiếng Việt"
     footer:
       about: "About"
       contact: "Contact"
@@ -50,13 +49,23 @@ en:
         <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
         sample application."
   users:
-    new:
-      title: "Sign up"
-      create: "Create my account"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       password_confirmation: "Confirmation"
+    new:
+      title: "Sign up"
+      create: "Create my account"
+    edit:
+      title: "Edit user"
+      title_update: "Update your profile"
+      update: "Save changes"
+      change: "Change"
+    index:
+      title: "All users"
+    user:
+      comfirm: "You sure?"
   shared:
     error_messages:
       form_error: 
@@ -85,3 +94,6 @@ en:
     users_controller:
       welcome: "Welcome to the Sample App!"
       user_not_exist: "User isn't exist!"
+      profile_up: "Profile updated"
+      danger_login: "Please log in."
+      delete: "User deleted"

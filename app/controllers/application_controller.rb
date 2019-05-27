@@ -12,4 +12,20 @@ class ApplicationController < ActionController::Base
   def default_url_options
     {locale: I18n.locale}
   end
+
+  def logged_in_user
+    return if logged_in?
+    store_location
+    flash[:danger] = t "controllers.users_controller.danger_login"
+    redirect_to login_url
+  end
+
+  def correct_user
+    @user = User.find(params[:id])
+    redirect_to root_url unless current_user?(@user)
+  end
+
+  def admin_user
+    redirect_to(root_url) unless current_user.admin?
+  end
 end

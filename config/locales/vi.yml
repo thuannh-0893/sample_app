@@ -1,9 +1,6 @@
 vi:
   layouts:
     application:
-    shim:
-      language_en: "English"
-      language_vi: "Tiếng Việt"
     header:
       title: "ứng dụng mẫu"
       home: "Trang chủ"
@@ -14,6 +11,8 @@ vi:
       profile: "Hồ sơ"
       settings: "Cài đặt"
       account: "Tài khoản"
+      language_en: "English"
+      language_vi: "Tiếng Việt"
     footer:
       about: "Giới thiệu"
       contact: "Liên hệ"
@@ -49,13 +48,23 @@ vi:
         <a href='https://www.railstutorial.org/'>Ruby on Rails</a>
         ứng dụng mẫu."
   users:
-    new:
-      title: "Đăng ký"
-      create: "Tạo tài khoản của tôi"
+    form:
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
+    new:
+      title: "Đăng ký"
+      create: "Tạo tài khoản của tôi"
+    edit:
+      title: "Chỉnh sửa người dùng"
+      title_update: "Cập nhật hồ sơ của bạn"
+      update: "Lưu thay đổi"
+      change: "Thay đổi"
+    index:
+      title: "Tất cả người dùng"
+    user:
+      comfirm: "Bạn chắc chắn?"
   shared:
     error_messages:
       form_error: 
@@ -84,3 +93,6 @@ vi:
     users_controller:
       welcome: "Chào mừng bạn đến với Ứng dụng mẫu!"
       user_not_exist: "Người dùng không tồn tại!"
+      profile_up: "Hồ sơ cá nhân đã được cập nhật"
+      danger_login: "Xin vui lòng đăng nhập."
+      delete: "Người dùng đã xóa"
