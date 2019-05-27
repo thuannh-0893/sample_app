@@ -90,9 +90,15 @@ vi:
   controllers:
     sessions_controller:
       error: "Email / mật khẩu không hợp lệ"
+      message_fail1: "Tài khoản chưa được kích hoạt. "
+      message_fail2: "Kiểm tra email của bạn cho các liên kết kích hoạt."
     users_controller:
       welcome: "Chào mừng bạn đến với Ứng dụng mẫu!"
       user_not_exist: "Người dùng không tồn tại!"
       profile_up: "Hồ sơ cá nhân đã được cập nhật"
       danger_login: "Xin vui lòng đăng nhập."
       delete: "Người dùng đã xóa"
+      check_mail: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    account_activations_controller:
+      success: "Tài khoản được kích hoạt!"
+      danger: "Liên kết kích hoạt không hợp lệ"

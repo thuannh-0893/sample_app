@@ -91,9 +91,15 @@ en:
   controllers:
     sessions_controller:
       error: "Invalid email/password combination"
+      message_fail1: "Account not activated. "
+      message_fail2: "Check your email for the activation link."
     users_controller:
       welcome: "Welcome to the Sample App!"
       user_not_exist: "User isn't exist!"
       profile_up: "Profile updated"
       danger_login: "Please log in."
       delete: "User deleted"
+      check_mail: "Please check your email to activate your account."
+    account_activations_controller:
+      success: "Account activated!"
+      danger: "Invalid activation link"
