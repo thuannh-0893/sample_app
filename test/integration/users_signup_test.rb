@@ -27,7 +27,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
   #   assert_difference "User.count", 1 do
   #     post users_path, params: {
   #       user: {
-  #         name: "Nguyễn Hoàng Thuận",
+  #         name: "Nguyen Hoang Thuan",
   #         email: "nguyen.hoang.thuan@sun-asterisk.com",
   #         password: "12345678",
   #         password_confirmation: "12345678"
