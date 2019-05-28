@@ -87,6 +87,7 @@ vi:
       sign_up: "Đăng kí ngay!"
       new_user: "Người dùng mới?"
       remember: "Nhớ mật khẩu trên máy tính này"
+      forgot_password: "(quên mật khẩu)"
   controllers:
     sessions_controller:
       error: "Email / mật khẩu không hợp lệ"
@@ -99,6 +100,33 @@ vi:
       danger_login: "Xin vui lòng đăng nhập."
       delete: "Người dùng đã xóa"
       check_mail: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
-    account_activations_controller:
+    account_activations:
       success: "Tài khoản được kích hoạt!"
       danger: "Liên kết kích hoạt không hợp lệ"
+    password_resets:
+      sent_email: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+      email_not found: "Không tìm thấy địa chỉ email"
+      pass_reseted: "Mật khẩu đã được đặt lại."
+      reset_expired: "Đặt lại mật khẩu đã hết hạn."
+      not_empty: "không thể để trống"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit: "Gửi đi"
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      submit: "Cập nhật mật khẩu"
+  user_mailer: 
+    account_activation:
+      title: "Ứng dụng mẫu"
+      hello: "Chào %{name},"
+      content: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+      activate: "Kích hoạt"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      click_link: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+      reset_password: "Đặt lại mật khẩu"
+      time_expire: "Liên kết này sẽ hết hạn sau hai giờ nữa."
+      content: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."

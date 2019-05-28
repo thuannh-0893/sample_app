@@ -1,11 +1,11 @@
+<h1><%= t ".title" %></h1>
 
-<h1>Sample App</h1>
+<p><%= t(".hello", name: @user.name)%></p>
 
-<p>Hi <%= @user.name %>,</p>
 
 <p>
-Welcome to the Sample App! Click on the link below to activate your account:
+<%= t ".content" %>
 </p>
 
-<%= link_to "Activate", edit_account_activation_url(id: @user.activation_token,
+<%= link_to t(".activate"), edit_account_activation_url(id: @user.activation_token,
   email: @user.email) %>
